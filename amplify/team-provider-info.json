@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-pill-dev-61414-authRole",
+      "UnauthRoleArn": "arn:aws:iam::583388005472:role/amplify-pill-dev-61414-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::583388005472:role/amplify-pill-dev-61414-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-pill-dev-61414-deployment",
+      "UnauthRoleName": "amplify-pill-dev-61414-unauthRole",
+      "StackName": "amplify-pill-dev-61414",
+      "StackId": "arn:aws:cloudformation:us-east-2:583388005472:stack/amplify-pill-dev-61414/c082f120-8191-11eb-9178-02d9600aa3f6",
+      "AmplifyAppId": "d27df87um3vqvo"
+    },
+    "categories": {
+      "auth": {
+        "pillba0cd34a": {}
+      }
+    }
+  }
+}

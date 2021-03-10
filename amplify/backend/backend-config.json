@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "pillba0cd34a": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}
