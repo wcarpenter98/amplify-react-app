@@ -7,12 +7,9 @@ import { listNotes } from './graphql/queries';
 import { createNote as createNoteMutation, deleteNote as deleteNoteMutation } from './graphql/mutations';
 
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import React from 'react';
-//import logo from './logo.svg';
 import './App.css';
 import Amplify from 'aws-amplify';
 import awsconfig from './aws-exports';
-import { AmplifySignOut, withAuthenticator } from '@aws-amplify/ui-react';
 import Home from './components/Main_menu';
 import Consumption_history from './components/Consumption_history'
 import Pill_information from './components/Pill_information'
