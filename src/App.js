@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect, Component } from 'react';
 import './App.css';
 import { API } from 'aws-amplify';
@@ -7,9 +6,7 @@ import { listNotes } from './graphql/queries';
 import { createNote as createNoteMutation, deleteNote as deleteNoteMutation } from './graphql/mutations';
 
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import './App.css';
-import Amplify from 'aws-amplify';
-import awsconfig from './aws-exports';
+
 import Home from './components/Main_menu';
 import Consumption_history from './components/Consumption_history'
 import Pill_information from './components/Pill_information'
@@ -26,7 +23,6 @@ import Edit_machine_information from './components/Edit_machine_information'
 import Error from './components/Error';
 import Navigation from './components/Navigation';
 
-Amplify.configure(awsconfig);
 class App extends Component {
     render() {
         return (
